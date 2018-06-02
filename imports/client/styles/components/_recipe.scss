@@ -1,0 +1,25 @@
+.recipe {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe__name {
+  flex-shrink: 0;
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin: 1rem;
+}
+
+.recipe__actions {
+  flex-shrink: 0;
+}
+
+.recipe__method {
+  font-size: 1rem;
+}
+
+.recipe__rating {
+  font-size: 1.1rem;
+  font-style: italic;
+}
